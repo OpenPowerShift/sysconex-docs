@@ -1,0 +1,50 @@
+site:
+  title: Transpower OpenSCD Docs
+  # the 404 page and sitemap files only get generated when the url property is set
+  url: https://openpowershift.github.io/sysconex-docs
+  start_page: overview:ROOT:introduction.adoc
+content:
+  sources:
+    - url: .
+      # https://github.com/OpenPowerShift/sysconex-docs
+      start_path: docs
+      branches: HEAD
+      version: true
+    - url: https://github.com/OpenPowerShift/oscd-editor-subscriber-later-binding
+      start_path: docs
+      # the documentation is on plugin-migration until it is merged; then use
+      # [main, v*]
+      branches: [plugin-migration]
+      version: true
+    - url: https://github.com/danyill/oscd-supervision
+      # start_path: docs
+      branches: [main, v*]
+      version: true
+    # disabled until the docs component is available on main
+    # - url: https://github.com/OpenPowerShift/oscd-editor-map-communication
+    #   start_path: docs
+    #   branches: [main, v*]
+    #   version: true
+    - url: https://github.com/OpenPowerShift/oscd-editor-stencil
+      start_path: docs
+      # the docs are on the upgrade branch until it is merged; then use [main, v*]
+      branches: upgrade
+asciidoc:
+  attributes:
+    sectnums: ""
+    experimental: ""
+    idprefix: ""
+    idseparator: "-"
+    page-pagination: ""
+antora:
+  extensions:
+    - require: "@antora/lunr-extension"
+ui:
+  bundle:
+    # using default UI until later
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental_ui
+  # an icon would be nice
+  # - path: favicon.ico
+  #   contents: ./supplemental-ui/favicon.ico

@@ -1,0 +1,26 @@
+= Introduction
+:sectnums!:
+:uri-license: https://raw.githubusercontent.com/transpower-nz/open-scd/refs/heads/main/LICENCE.md
+:uri-openenergytools: https://github.com/OpenEnergyTools
+
+This documents Transpower's OpenSCD distribution.
+
+This distribution is based primarily on the work of the {uri-openenergytools}[OpenEnergyTools] organisation and a variety of community plugins.
+
+Subject to the {uri-license}[license], Transpower welcomes those interest to use, study, share and improve the distribution as well as this documentation.
+
+== Plugins
+
+* xref:oscd-editor-subscriber-later-binding:ROOT:introduction.adoc[Subscriber Later Binding]
+
+* xref:oscd-supervision:ROOT:introduction.adoc[Supervision]
+
+// * https://github.com/openscd/open-scd/wiki/Validators[Validators used in OpenSCD]
+
+// as well as features that allow you to manipulate or add specific information to the project covering
+
+// * https://github.com/openscd/open-scd/wiki/Substation-Section-Basics[Substation section]
+// * https://github.com/openscd/open-scd/wiki/Communication-Basics[Communication section]
+// * https://github.com/openscd/open-scd/wiki/IED[IED section]
+// * https://github.com/openscd/open-scd/wiki/DataTypeTemplates[DataTypeTemplate section]
+// * https://github.com/openscd/open-scd/wiki/Global-SCL-manipulation[Global SCL manipulation capability]
