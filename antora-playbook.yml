@@ -20,11 +20,10 @@ content:
       # start_path: docs
       branches: [main, v*]
       version: true
-    # disabled until the docs component is available on main
-    # - url: https://github.com/OpenPowerShift/oscd-editor-map-communication
-    #   start_path: docs
-    #   branches: [main, v*]
-    #   version: true
+    - url: https://github.com/OpenPowerShift/oscd-editor-map-communication
+      start_path: docs
+      branches: [main, v*]
+      version: true
     - url: https://github.com/OpenPowerShift/oscd-editor-stencil
       start_path: docs
       # the docs are on the upgrade branch until it is merged; then use [main, v*]
