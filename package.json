@@ -1,0 +1,15 @@
+{
+  "name": "sysconex-docs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Antora playbook for the Sysconex OpenSCD docs site",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "serve": "antora antora-playbook.yml && npx http-server build/site"
+  },
+  "devDependencies": {
+    "antora": "^3.2.1",
+    "@antora/lunr-extension": "1.0.0-alpha.13"
+  }
+}

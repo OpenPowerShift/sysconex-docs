@@ -1,4 +1,4 @@
-= Transpower OpenSCD Documentation
+= Sysconex OpenSCD Documentation
 :url-project: https://antora.org
 :url-org: https://gitlab.com/antora
 :url-group: {url-org}/demo
@@ -9,7 +9,7 @@
 :url-docs-playbook: {url-antora-docs}/playbook/
 :url-docs-run: {url-antora-docs}/run-antora/
 
-This is the playbook project for the Transpower OpenSCD docs site.
+This is the playbook project for the Sysconex OpenSCD docs site.
 You can view the site produced by the Antora playbook ([.path]_antora-playbook.yml_) stored in this project at https://openpowershift.github.io/sysconex-docs/.
 
 Follow the steps in the {url-docs-quickstart}[Antora quickstart].

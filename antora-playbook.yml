@@ -1,5 +1,5 @@
 site:
-  title: Transpower OpenSCD Docs
+  title: Sysconex OpenSCD Docs
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://openpowershift.github.io/sysconex-docs
   start_page: overview:ROOT:introduction.adoc

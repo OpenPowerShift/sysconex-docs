@@ -3,11 +3,11 @@
 :uri-license: https://raw.githubusercontent.com/transpower-nz/open-scd/refs/heads/main/LICENCE.md
 :uri-openenergytools: https://github.com/OpenEnergyTools
 
-This documents Transpower's OpenSCD distribution.
+This documents Sysconex's OpenSCD distribution.
 
 This distribution is based primarily on the work of the {uri-openenergytools}[OpenEnergyTools] organisation and a variety of community plugins.
 
-Subject to the {uri-license}[license], Transpower welcomes those interest to use, study, share and improve the distribution as well as this documentation.
+Subject to the {uri-license}[license], Sysconex welcomes those interest to use, study, share and improve the distribution as well as this documentation.
 
 == Plugins
 
