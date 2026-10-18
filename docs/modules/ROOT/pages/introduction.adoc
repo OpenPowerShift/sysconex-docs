@@ -1,6 +1,6 @@
 = Introduction
 :sectnums!:
-:uri-license: https://raw.githubusercontent.com/transpower-nz/open-scd/refs/heads/main/LICENCE.md
+:uri-license: https://raw.githubusercontent.com/OpenPowerShift/Sysconex/refs/heads/main/LICENSE.txt
 :uri-openenergytools: https://github.com/OpenEnergyTools
 
 This documents Sysconex's OpenSCD distribution.
